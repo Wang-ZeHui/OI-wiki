@@ -1,4 +1,4 @@
-author: H-J-Granger, Ir1d, ChungZH, Marcythm, StudyingFather, billchenchina, Suyun514, Psycho7, greyqz, Xeonacid, partychicken
+author: H-J-Granger, Ir1d, ChungZH, Marcythm, StudyingFather, billchenchina, Suyun514, Psycho7, greyqz, Xeonacid, partychicken,Wang-Zehui
 
 本页面主要列举一些竞赛中的小技巧。
 
@@ -174,7 +174,12 @@ Node* newnode() {
   return ++allocp;
 }
 ```
-
+##使用注释提醒自己
+在比赛过程中往往会遗忘一些重要的事情，如开long long,freopen等，有时会造成严重的后果。因此可以在比赛开始前在代码中加入一些注释用于提醒自己：
+```cpp
+//long long!!!
+//open freopen!!!
+```
 ## 参考资料
 
 [洛谷日报 #86](https://studyingfather.blog.luogu.org/some-coding-tips-for-oiers)
